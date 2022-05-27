@@ -45,9 +45,9 @@ export const GalleryContents = styled.div `
     overflow: hidden;
 
     @media screen and (max-width: 768px) {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
     }
 `
 
@@ -58,6 +58,11 @@ export const GalleryBox = styled.div `
 
     :hover {
         filter: opacity(0.8);
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 50px;
+
     }
 `
 
