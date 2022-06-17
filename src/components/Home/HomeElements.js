@@ -1,19 +1,30 @@
 import styled from 'styled-components'
-import mainBg from '../../assets/images/main.jpg'
 
 export const HomeContainer = styled.div `
-    height: 100vh;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${mainBg});
-    background-size: cover;
-    background-position: center;
-    max-width: 1920px;
+    max-width: 1600px;
     margin-left:auto;
     margin-right:auto;
     position: relative;
     z-index: 1;
+`
+
+export const HomeBg = styled.div `
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+`
+
+export const BgImg = styled.img `
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #000;
 `
 
 export const HomeContent = styled.div `

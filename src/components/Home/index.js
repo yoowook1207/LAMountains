@@ -1,22 +1,18 @@
 import React from 'react'
-import { ArrowHolder, HomeContainer, HomeContent, HomeP, Title } from './HomeElements'
-import { AiOutlineArrowDown } from "react-icons/ai"
+import mainBg from '../../images/Hero1.png'
+import { HomeContainer, HomeContent,HomeBg,BgImg} from './HomeElements'
+
 
 const Home = () => {
 
   return (
     <>
       <HomeContainer>
+        <HomeBg>
+          <BgImg src={mainBg} alt="snowy mountain top"/>
+        </HomeBg>
         <HomeContent>
-          <Title>
-            We  are  getting  married
-          </Title>
-          <HomeP>
-            Save your date on 08.05.2022
-          </HomeP>
-          <ArrowHolder>
-            <AiOutlineArrowDown size={28}/>
-          </ArrowHolder>
+
         </HomeContent>
       </HomeContainer>
     </>

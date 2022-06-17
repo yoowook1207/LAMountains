@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
-import Gallery from '../components/Gallery'
 import Home from '../components/Home'
-import Message from '../components/Message'
 import Navbar from '../components/Navbar'
-import RSVP from '../components/RSVP'
 import Sidebar from '../components/Sidebar'
-import Story from '../components/Story'
+import History from '../components/History'
+import Climb from '../components/Climb'
+import Footer from '../components/Footer'
 
 const Main = () => {
     const [isOpen, setOpen] = useState(false)
@@ -19,10 +18,9 @@ const Main = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <Home />
-        <Story/>
-        <Gallery/>
-        <RSVP/>
-        <Message/>
+        <History/>
+        <Climb/>
+        <Footer/>
       </>
 
   )
