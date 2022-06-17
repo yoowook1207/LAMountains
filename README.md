@@ -3,6 +3,8 @@
 
   ![alt text](https://img.shields.io/static/v1?label=LICENSE&message=GNU_GPL_v3.0&color=green)
 
+  https://la-mountains.herokuapp.com/
+
 ## Description
   
 https://github.com/yoowook1207/LAMountains<br />
@@ -20,6 +22,12 @@ https://github.com/yoowook1207/LAMountains<br />
   * [Questions](#questions)
   
 ## Installation
+
+To install npm dependencies, type below on the terminal
+
+```
+npm i
+```
 
 Please use npm start on the terminal to run this web application
 
@@ -40,7 +48,7 @@ npm start
   N/A
 
 ## Deployed
-  N/A
+  https://la-mountains.herokuapp.com/
 
 ## Questions
 
