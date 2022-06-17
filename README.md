@@ -1,13 +1,13 @@
-# Sung Wook $ Semi
+# Los Angeles Mountains
 
 
   ![alt text](https://img.shields.io/static/v1?label=LICENSE&message=GNU_GPL_v3.0&color=green)
 
 ## Description
   
-https://github.com/yoowook1207/wedding-invitation<br />
+https://github.com/yoowook1207/LAMountains<br />
     This webpage is built with React.js and react-scroll.
-    Sung Wook and Semi's Wedding Invitation webpage.
+    Sung Wook Yoo's Coalition application skill test
     
 
 
@@ -21,15 +21,14 @@ https://github.com/yoowook1207/wedding-invitation<br />
   
 ## Installation
 
-N/A 
+Please use npm start on the terminal to run this web application
+
+```
+npm start
+``` 
 
 ## Contents
 
-    Home: Main welcoming picture with a date of wedding
-    Our Story: Description of our story
-    Gallery: Engagement photos
-    RSVP: User can submit a RSVP form, using mailJS
-    Message: User can leave a message to us
   
 ## License
   GNU GPL v3.0
@@ -41,7 +40,7 @@ N/A
   N/A
 
 ## Deployed
-  https://sungwook-semi-wedding-invitati.herokuapp.com/
+  N/A
 
 ## Questions
 
